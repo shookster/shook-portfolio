@@ -27,7 +27,7 @@ export default function SinglePost() {
                 }
             },
             body,
-            "authorName": author->name,
+            "name": author->name,
             "authorImage": author->image
         }`
       )
